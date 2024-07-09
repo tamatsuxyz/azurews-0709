@@ -211,7 +211,7 @@ Project Phoenix の開発者たちが迅速に作業を開始できるように�
 2. デスクトップから Microsoft Edge を起動します
 3. 既定のブラウザを変更するように促されるため [Confirm] ボタンをクリックします
 4. Browser 欄の [Internet Explorer] をクリックし [Microsoft Edge] に変更します。設定 画面は "x" ボタンを押下して閉じます。
-5. Microsoft Edge を開き、以下の URL から Azure Storage Explorer をダウンロードします
+5. Microsoft Edge で、以下の URL から Azure Storage Explorer をダウンロードします
 
 　　[Azure Storage Explorer (https://azure.microsoft.com/ja-jp/products/storage/storage-explorer)](https://azure.microsoft.com/ja-jp/products/storage/storage-explorer)
 
