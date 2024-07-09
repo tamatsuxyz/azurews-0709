@@ -53,6 +53,7 @@ Project Phoenix の開発者たちが迅速に作業を開始できるように�
    * リソース グループ: **Prefix** -azurews (新規作成)
 
      ※ **Prefix** 部分は、任意の文字（ご自身のイニシャルなど）で置き換えてください。
+
      　リソースグループ名は、同じ Subsciprtion 内で重複できないため、他の参加者の方と重複しないようにしてください。
    * 仮想マシン名: vm01
    * 地域:  (Asia Pacific) Japan East
@@ -78,9 +79,13 @@ Project Phoenix の開発者たちが迅速に作業を開始できるように�
 
 8. **デプロイが完了しました** のメッセージが出力されたら、[**リソースに移動**] ボタンをクリックします。
 9. ネットワークのセキュリティ設定を変更します。
+
    　1. [ネットワーク] - [ネットワーク設定] を選択します
+
    　2. [ルール] - [ネットワーク セキュリティグループ] - [受信ポート ルール] 内にある [RDP] ルールをクリックします。 ※青字部分をクリックします
+
    　3. [ソース] を [My IP address] に変更し、[保存] ボタンをクリックします
+
 10. 作成した仮想マシンの情報を確認します。
 
 > **ポイント**
@@ -210,6 +215,7 @@ Project Phoenix の開発者たちが迅速に作業を開始できるように�
 2. Microsoft Edge を開き、以下の URL から Azure Storage Explorer をダウンロードします
 
 　　[Azure Storage Explorer (https://azure.microsoft.com/ja-jp/products/storage/storage-explorer)](https://azure.microsoft.com/ja-jp/products/storage/storage-explorer)
+
 　　* 作業端末から RDP 接続先へのコピー アンド ペーストが可能です
 
 　 　[今すぐダウンロード] を選択し [Windows] をクリックします
